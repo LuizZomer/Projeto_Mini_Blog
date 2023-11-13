@@ -10,7 +10,7 @@ const Register = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
-  const [error, setError] = useState(null)
+  const [error, setError] = useState("")
 
   const {createUser, error: authError, loading} = useAuthentication()
 
