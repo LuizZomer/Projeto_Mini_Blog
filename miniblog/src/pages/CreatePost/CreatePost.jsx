@@ -15,6 +15,8 @@ const CreatePost = () => {
 
   const {user} = useAuthValue()
 
+  const navigate = useNavigate()
+
   const {insertDocument, response} = useInsertDocument("posts") 
 
   const handleSubmit = (e) => {
@@ -45,6 +47,8 @@ const CreatePost = () => {
       uid : user.uid,
       createBy: user.displayName
     })
+
+    navigate("/");
     
   }
  
