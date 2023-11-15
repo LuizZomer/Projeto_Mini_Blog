@@ -55,16 +55,16 @@ function App() {
           <div className="container">
             <Routes>
               {/* public views  */}
-              <Route path='/' element={<Home />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/search' element={<Search />} />
-              <Route path='/posts/:id' element={<Post />}/>
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/' element={<Home />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/about' element={<About />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/search' element={<Search />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/posts/:id' element={<Post />}/>
               {/* private views  */}
-              <Route path='/login' element={!user ? <Login />: <Navigate to='/' />} />
-              <Route path='/register' element={!user ? <Register />: <Navigate to='/' />} />
-              <Route path='/posts/create' element={user ? <CreatePost />: <Navigate to='/login' />} />
-              <Route path='/dashboard' element={user ? <Dashboard />: <Navigate to='/login' />} />
-              <Route path='/posts/edit/:id' element={user ? <EditPost /> : <Login />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/login' element={!user ? <Login />: <Navigate to='/' />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/register' element={!user ? <Register />: <Navigate to='/' />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/posts/create' element={user ? <CreatePost />: <Navigate to='/login' />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/dashboard' element={user ? <Dashboard />: <Navigate to='/login' />} />
+              <Route path='https://luizzomer.github.io/Projeto_Mini_Blog/posts/edit/:id' element={user ? <EditPost /> : <Login />} />
             </Routes>
           </div>
           <Footer />
