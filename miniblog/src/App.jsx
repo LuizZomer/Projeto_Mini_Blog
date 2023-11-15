@@ -23,7 +23,7 @@ import Post from './pages/Post/Post'
 
 
 // components 
-import Navbar from './components/NAvbar'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import EditPost from './pages/EditPost/EditPost'
 
