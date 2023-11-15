@@ -19,7 +19,7 @@ import Register from './pages/Register/Register'
 import CreatePost from './pages/CreatePost/CreatePost'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Search from './pages/Search/Search'
-import Post from './pages/post/post'
+import Post from './pages/Post/Post'
 
 
 // components 
