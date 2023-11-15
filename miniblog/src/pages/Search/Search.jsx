@@ -6,7 +6,7 @@ import { useFetchDocument } from "../../hooks/useFetchDocument"
 import { useQuery } from "../../hooks/useQuery"
 
 // components 
-import PostDetail from "../../components/postDetail"
+import PostDetail from "../../components/PostDetail"
 
 
 const Search = () => {
